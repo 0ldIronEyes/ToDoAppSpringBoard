@@ -11,9 +11,9 @@ function addTask() {
     const taskList = document.getElementById("taskList");
     
     
-    if (taskText !== "") {
+    if (taskText.value !== "") {
       let li = document.createElement("li");
-      li.innerText = taskText.value;
+      li.innerText = taskText.value.trim();
       li.className = "listelement";
       let deletebutton = document.createElement("button");
       deletebutton.classList.add("listbutton");

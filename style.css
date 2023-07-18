@@ -14,6 +14,8 @@ h1 {
   }
   
 
+
+
 .listelement {
     color:blueviolet;
     cursor:pointer;
@@ -24,8 +26,9 @@ h1 {
     background-color: darkred;
     color:aliceblue;
     border-radius: 5px;
-    margin:10px;
+    margin:0,10px,0,10px;
     cursor:pointer;
+    float:right;
 }
 
 #button {
