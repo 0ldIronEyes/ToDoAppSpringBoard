@@ -1,0 +1,54 @@
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+#titlediv {
+    width: 90vw;
+        }
+
+h1 {
+    text-align: justify;
+    font-size: 4.3vw;
+  }
+  
+
+.listelement {
+    color:blueviolet;
+    cursor:pointer;
+    width: 70%;
+}
+
+.listbutton {
+    background-color: darkred;
+    color:aliceblue;
+    border-radius: 5px;
+    margin:10px;
+    cursor:pointer;
+}
+
+#button {
+    padding:10px;
+    border-radius: 0px;
+    background-color: darkslateblue;
+    cursor:pointer;
+    color:aliceblue;
+    
+}
+
+  input[type="text"] {
+
+    width: 70%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 5px;
+  }
