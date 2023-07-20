@@ -13,8 +13,14 @@ h1 {
     font-size: 4.3vw;
   }
   
+.striketext {
+  text-decoration: line-through;
+}
 
-
+.yellow
+{
+  color:yellow;
+}
 
 .listelement {
     color:blueviolet;
